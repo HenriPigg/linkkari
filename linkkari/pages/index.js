@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <img className="image" src="profile.jpg"/>
+        <img className="image" src="/profile.jpg"/>
         <h3 className="description">Henri Pigg</h3>
         <div className="description">
           <h3>My links</h3>
@@ -48,6 +48,7 @@ export default function Home() {
           border-radius: 50%;
           width: 50%;
           height: auto;
+          margin-bottom: 20px;
         }
         a {
           color: inherit;
